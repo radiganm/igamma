@@ -13,7 +13,7 @@ MODULE Complex_Incomplete_Gamma_Quad
 !   2018-02-08 | Mac Radigan - corrected gfortran compilation error with return value
 !                              (from dnrm to fn_val in function dnrm, matching result argument)
 !
-!   2018-02-08 | Mac Radigan - added IEE 754-2008 binary128 (quad precision) option for extended precision calculations
+!   2018-02-08 | Mac Radigan - added IEEE 754-2008 binary128 (quad precision) option for extended precision calculations
 
 IMPLICIT NONE
 INTEGER, PARAMETER  :: dp = SELECTED_REAL_KIND(16, 60)
