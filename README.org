@@ -16,6 +16,8 @@
 
 This repository contains sources released into the public domain, and may be found here in Allan Miller's Fortran Software page:
 
+[[https://jblevins.org/mirror/amiller/]]
+
 [[https://jblevins.org/mirror/amiller/cincgam.f90]]
 
 ** documentation
