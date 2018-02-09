@@ -8,9 +8,9 @@
 #+LICENSE: ODC Public Domain Dedication & License 1.0
 #+SPDX-License-Identifier: PDDL-1.0
 
-** definition
-
 This library provides an implementation of the Upper Incomplete Gamma Function for complex parameters.
+
+** definition
 
 [[https://en.wikipedia.org/wiki/Incomplete_gamma_function#Definition][ltxpng/.equations_46aa4fc9e7780dad4f8899f54da19cdd8a48cbba.png]] 
 
