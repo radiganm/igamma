@@ -38,6 +38,7 @@ Documentation for the original implementation attributed to Eric Kostlan and Dmi
     - (TODO) SWIG
       - (TODO) Python
       - (TODO) Common Lisp
+      - (TODO) Haskell
   - (TODO) improved documentation
 
 ** modifications
