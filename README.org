@@ -8,27 +8,27 @@
 #+LICENSE: ODC Public Domain Dedication & License 1.0
 #+SPDX-License-Identifier: PDDL-1.0
 
-## definition
+** definition
 
 [[https://en.wikipedia.org/wiki/Incomplete_gamma_function#Definition][ltxpng/.equations_46aa4fc9e7780dad4f8899f54da19cdd8a48cbba.png]] 
 
-## source
+** source
 
 This repository contains sources released into the public domain, and may be found here in Allan Miller's Fortran Software page:
 
 [[https://jblevins.org/mirror/amiller/cincgam.f90]]
 
-## documentation
+** documentation
 
 Documentation for the original implementation attributed to Eric Kostlan and Dmitry Gokhman can be found at:
 
 [[http://zeta.math.utsa.edu/~gokhman/ftp/papers/igf.pdf]]
 
-## modifications
+** modifications
 
 All subsequent modifications and language bindings I have added are placed in the public domain.
 
-## NO WARRANTY
+** NO WARRANTY
 
 THE PROGRAM IS DISTRIBUTED IN THE HOPE THAT IT WILL BE USEFUL, BUT WITHOUT ANY WARRANTY. IT IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
 
