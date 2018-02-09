@@ -28,14 +28,15 @@ Documentation for the original implementation attributed to Eric Kostlan and Dmi
 
   - accepts complex-valued inputs
   - support for IEEE 754-2008 binary128 (quad precision)
-  - (TODO) language bindings
-    - Fortran
+  - language bindings
+    - Fortran 90
     - C
     - C++20
     - (TODO) Julia
     - (TODO) SWIG
       - (TODO) Python
       - (TODO) Common Lisp
+  - (TODO) improved documentation
 
 ** modifications
 
