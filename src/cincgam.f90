@@ -179,7 +179,7 @@ FUNCTION dnrm(z) RESULT(fn_val)
 COMPLEX (dp), INTENT(IN)  :: z
 REAL (dp)                 :: fn_val
 
-dnrm = ABS(REAL(z, KIND=dp)) + ABS(AIMAG(z))
+fn_val = ABS(REAL(z, KIND=dp)) + ABS(AIMAG(z))
 RETURN
 END FUNCTION dnrm
 
