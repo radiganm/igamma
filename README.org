@@ -1,0 +1,19 @@
+#+OPTIONS: tex:t
+#+STARTUP: latexpreview
+#+LaTeX_HEADER: \usepackage{amsmath}
+#+TITLE: igamma
+#+AUTHOR: Written By Eric Kostlan & Dmitry Gokhman; code converted using TO_F90 by Alan Miller; modifications and language bindings by Mac Radigan
+#+HOMEPAGE: https://jblevins.org/mirror/amiller/
+#+SEE-ALSO: http://zeta.math.utsa.edu/~gokhman/ftp/papers/igf.pdf
+#+LICENSE: ODC Public Domain Dedication & License 1.0
+#+SPDX-License-Identifier: PDDL-1.0
+
+This repository contains sources released into the public domain, and may be found here in Allan Miller's Fortran Software page:
+[[https://jblevins.org/mirror/amiller/cincgam.f90]]
+
+Documentation for the original implementation attributed to Eric Kostlan and Dmitry Gokhman can be found at:
+[[http://zeta.math.utsa.edu/~gokhman/ftp/papers/igf.pdf]]
+
+All subsequent modifications and language bindings I have added are placed in the public domain.
+
+ # *EOF* 
