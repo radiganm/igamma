@@ -13,27 +13,29 @@ AM_CPPFLAGS = -I$(top_srcdir)/include                                        \
 
 AM_FCFLAGS  = -Jmod
 
-sdrrx_ldadd              = libsdrrx.la                                       \
+igamma_ldadd             = libigamma.la                                      \
                            -L/usr/local/lib                                  \
                            -ldl -lm                                          \
                            -lrt                                              \
                            -L/usr/lib/gcc/x86_64-linux-gnu/5 -lquadmath      \
                            -L/usr/lib/gcc/x86_64-linux-gnu/5 -lgfortran       
 
-bin_PROGRAMS             = igamma                                             
+bin_PROGRAMS             = test_igamma
 
-igamma_SOURCES           = src/igamma.cc
-igamma_LDADD             = $(igamma_ldadd)
+test_igamma_SOURCES      = src/tests/test_igamma.cc                           
+test_igamma_LDADD        = $(igamma_ldadd)
 
 lib_LTLIBRARIES          = libigamma.la                                       
 
-libigamma_la_SOURCES     = src/cincgam_edit.f90                               
+libigamma_la_SOURCES     = src/rad/igamma/cincgam.f90                        \
+                           src/rad/igamma/cincgam_quad.f90                   \
+                           src/rad/igamma/igamma.cc                           
 libigamma_la_LIBADD      = -lrt                                               
-libigamma_la_LDFLAGS     = -export-symbols-regex '^igamma_[^_]' -fPIC        \
+libigamma_la_LDFLAGS     = -fPIC                                             \
                            -L/usr/local/lib                                  \
-                           -shared -pthread                                  \
-                           -lrt                                               
+                           -pthread                                          \
+                           -lrt
 
-pkginclude_HEADERS       = include/igamma.h                                   
+pkginclude_HEADERS       = include/rad/igamma/igamma.h                        
 
 ### *EOF*

@@ -8,6 +8,11 @@ MODULE Complex_Incomplete_Gamma
 ! --- For documentation, see:
 ! http://www.math.utsa.edu/~gokhman/papers/igf.html
 
+! change log:
+!
+!   2018-02-08 | Mac Radigan - corrected gfortran compilation error with return value
+!                              (from dnrm to fn_val in function dnrm, matching result argument)
+
 IMPLICIT NONE
 INTEGER, PARAMETER  :: dp = SELECTED_REAL_KIND(12, 60)
 
