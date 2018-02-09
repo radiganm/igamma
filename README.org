@@ -9,11 +9,15 @@
 #+SPDX-License-Identifier: PDDL-1.0
 
 This repository contains sources released into the public domain, and may be found here in Allan Miller's Fortran Software page:
+
 [[https://jblevins.org/mirror/amiller/cincgam.f90]]
 
 Documentation for the original implementation attributed to Eric Kostlan and Dmitry Gokhman can be found at:
+
 [[http://zeta.math.utsa.edu/~gokhman/ftp/papers/igf.pdf]]
 
 All subsequent modifications and language bindings I have added are placed in the public domain.
+
+[[ltxpng/.equations_46aa4fc9e7780dad4f8899f54da19cdd8a48cbba.png]] 
 
  # *EOF* 

@@ -1,0 +1,12 @@
+#+OPTIONS: tex:t
+#+STARTUP: latexpreview
+#+LaTeX_HEADER: \usepackage{amsmath}
+#+AUTHOR: Written By Eric Kostlan & Dmitry Gokhman; code converted using TO_F90 by Alan Miller; modifications and language bindings by Mac Radigan
+#+LICENSE: ODC Public Domain Dedication & License 1.0
+#+SPDX-License-Identifier: PDDL-1.0
+
+$$
+\Gamma(s,x) = \int_x^{\infty} t^{s-1}\,e^{-t}\,{\rm d}t
+$$
+
+ # *EOF* 
