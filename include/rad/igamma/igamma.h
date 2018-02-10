@@ -5,19 +5,21 @@
   #include <complex>
   #include <iostream>
 
-#pragma once
+  #pragma once
 
-namespace rad::igamma {
+  namespace rad::igamma
+  {
+    using std::complex;
+    using std::ostream;
 
-  using std::complex;
-  using std::ostream;
+    void igamma(complex<double> &alpha, complex<double> &x,
+                complex<double> &result);
 
-  void igamma(complex<double> &alpha, complex<double> &x, complex<double> &result);
+    void igamma(complex<__float128> &alpha, complex<__float128> &x,
+                complex<__float128> &result);
 
-  void igamma(complex<__float128> &alpha, complex<__float128> &x, complex<__float128> &result);
+  }  // namespace
 
-} // namespace
-
-  std::ostream& operator<<(std::ostream &os, std::complex<__float128> &o);
+  std::ostream &operator<<(std::ostream &os, std::complex<__float128> &o);
 
 /// *EOF*
