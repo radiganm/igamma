@@ -8,8 +8,6 @@
 extern "C" {
 #endif
 
-  using Intrinsic_Complex128_t = _Complex float __attribute__((mode(TC)));
-
   using Complex_Double_t = void *;
   extern void __complex_incomplete_gamma_MOD_cdig(Complex_Double_t alpha, Complex_Double_t x, Complex_Double_t result);
 
